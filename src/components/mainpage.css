@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+   overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap');
+
+.navbar{
+    background-color: rgb(71, 71, 71);
+    height: 80vh;
+}

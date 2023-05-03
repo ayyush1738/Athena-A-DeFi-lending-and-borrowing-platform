@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+   overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap');
+
+.login{
+    height: 100vh;
+    width: auto;
+    background-image: url(spectrum-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.login1{
+    height: 100vh;
+    width: auto;
+    background-image: url(spectrum-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    font-size: 1.7rem;
+}
+.titleunder{
+    font-size: 0.7rem;
+    color: rgb(130, 129, 129);
+}
+
+.signinbut{
+    background-color: #0d8238;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.signinbut:hover, .signinbut:active, .signinbut:focus-within,.signinbut:focus-visible{
+    background-color: #07180d !important;
+    color: white;
+    
+}
+
+.glass{
+    background: rgba(0, 0, 0, 0.541);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(16.4px);
+padding: 40px;
+padding-bottom: 20px;
+
+}
+
+.signup{
+    background-color: transparent;
+    border:none;
+    padding: 0px;
+    padding-left: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signup:hover,.signup:active{
+    
+        background-color: transparent;
+        border:none;
+  color: #0db64b;
+  cursor: pointer;
+    
+}
+
+.inputfield, .inputfield:focus, .inputfield:focus-visible, .inputfield:active,  .inputfield:focus-within, .inputfield:visited{
+    background-color: transparent;
+    outline: #0eff66;
+    border: none;
+    border-bottom: 0.7px solid #0fc752;
+    box-shadow: none;
+    border-radius: 0;
+    color: white;
+}
+
+
+.circle{
+    width: 450px;
+    
+}
